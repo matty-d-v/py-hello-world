@@ -6,3 +6,4 @@ input_name = input('Enter your name:\n') #(1)the 1st line of code that isn't in 
 #(2)Then the user enters a name, which is saved to the input name variable. 
 greeting(input_name) #(3)then we go to the next line of the program, which is a call to the greeting()function, and the value of the input name is passed in.  
 #(6)so becuase line 8 has no more text, this will end the program, so the program stops executing.
+

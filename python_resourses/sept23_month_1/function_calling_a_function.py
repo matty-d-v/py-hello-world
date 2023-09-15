@@ -1,6 +1,7 @@
 # It may not seem obvious why you'd want to do this right now, but this is a really useful
 # feature. At least understanding what's happening will be useful to know.
 
+
 # A normal function that upper cases a some text, using a function of text, don't worry about 
 # how this works, we'll come back to it.
 def shout(text): 
