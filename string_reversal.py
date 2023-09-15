@@ -16,3 +16,22 @@ def traverse_sentence_and_optionally_reverse(sentence):
         print(reverse_chars(word, 5), end=' ')
 
 traverse_sentence_and_optionally_reverse("It's a good world")
+
+#---------------------------------------------------------------
+#correct code
+def spin_words(sentence):
+    
+    # Split sentence into words
+    words = sentence.split()
+    
+    # Go through each word. enumerate converts objects to list.
+    for i, word in enumerate(words):
+        
+        # Check if this word is 5 or more letters long
+        if len(word) >= 5:
+            
+            # Reverse it, same as your return str above. 
+            words[i] = word[::-1]
+    
+    # Return string out of list
+    return ' '.join(words)
