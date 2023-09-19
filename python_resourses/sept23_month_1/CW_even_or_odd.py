@@ -17,6 +17,10 @@ print(even_or_odd(2));
 print(even_or_odd(3));
 print(even_or_odd2(2));
 print(even_or_odd2(3));
+
+#print(even_or_odd2("3"));
+print(even_or_odd2('3'));
+
     
 #import codewars_test as test
 #from solution import even_or_odd
