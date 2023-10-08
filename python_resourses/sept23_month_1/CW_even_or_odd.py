@@ -7,7 +7,20 @@ def even_or_odd(number):
     else:
         return"Odd"
     
+
+def even_or_odd2(number):
+    if (number%2) ==0:
+        return"Even"
+    return"Odd"
     
+print(even_or_odd(2));
+print(even_or_odd(3));
+print(even_or_odd2(2));
+print(even_or_odd2(3));
+
+#print(even_or_odd2("3"));
+print(even_or_odd2('3'));
+
     
 #import codewars_test as test
 #from solution import even_or_odd

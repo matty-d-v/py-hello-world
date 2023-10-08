@@ -6,8 +6,7 @@
 def reverse_chars(str, minLength):
     if len(str) >= minLength: 
         return str[::-1]
-    else:
-        return str
+    return str
 
 # print(reverse_chars("hell0", 5))
 
